@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App2 from './App2';
+import App3 from './App3';
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App/>
+    <br/>
+    <hr/>
+    <App2 />
+    <br/>
+    <hr/> */}
+    <App3 />
   </React.StrictMode>
 );
 
